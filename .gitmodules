@@ -1,0 +1,3 @@
+[submodule "ext/katabasis"]
+	path = ext/katabasis
+	url = https://github.com/craftworkgames/katabasis.git
