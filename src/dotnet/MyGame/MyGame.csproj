@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- MSBuild project settings -->
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<OutputType>WinExe</OutputType>
+		<PublishReadyToRun>false</PublishReadyToRun>
+		<TieredCompilation>false</TieredCompilation>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<!-- Project references -->
+	<ItemGroup>
+		<ProjectReference Include="../../../ext/katabasis/src/dotnet/projects/production/Katabasis.Framework/Katabasis.Framework.csproj" />
+	</ItemGroup>
+
+	<!-- Assets -->
+	<ItemGroup>
+		<None Update="Assets/**/*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Properties" />
+	</ItemGroup>
+
+</Project>
