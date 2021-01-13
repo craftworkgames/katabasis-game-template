@@ -13,6 +13,9 @@
 	<ItemGroup>
 		<ProjectReference Include="../../../ext/katabasis/src/dotnet/projects/production/Katabasis.Framework/Katabasis.Framework.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="../../../ext/katabasis/src/dotnet/projects/production/Katabasis.Extended/Katabasis.Extended.csproj" />
+	</ItemGroup>
 
 	<!-- Assets -->
 	<ItemGroup>
